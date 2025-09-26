@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fa"> <!-- زبان را به فارسی تغییر دادم برای متن "آرزوی موفقیت..." -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy birthday Narges ❤️</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            
+            /* --- شروع تغییرات برای پس‌زمینه تصویر --- */
+            background-image: url('narges_background.jpg'); /* نام فایل تصویر خود را اینجا قرار دهید */
+            background-size: cover; /* تصویر را به گونه‌ای تنظیم می‌کند که کل صفحه را بپوشاند */
+            background-position: center; /* تصویر را در مرکز قرار می‌دهد */
+            background-repeat: no-repeat; /* از تکرار تصویر جلوگیری می‌کند */
+            background-color: #f0f0f0; /* رنگ پس‌زمینه در صورتی که تصویر بارگذاری نشود یا شفاف باشد */
+            overflow: hidden; /* برای جلوگیری از نمایش نوارهای اسکرول در صورت بزرگ بودن تصویر */
+            /* --- پایان تغییرات برای پس‌زمینه تصویر --- */
+        }
+        .container {
+            text-align: center;
+            background-color: rgba(174, 152, 27, 0.80); /* پس‌زمینه سفید با کمی شفافیت برای خوانایی بهتر متن */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 90%; /* برای اینکه در صفحات کوچک‌تر هم خوب نمایش داده شود */
+            box-sizing: border-box; /* پدینگ شامل عرض و ارتفاع باشد */
+        }
+        h1 {
+            color: #000000; /* A shade of pink */
+            margin-bottom: 20px;
+        }
+        audio {
+            width: 100%;
+            margin-top: 20px;
+        }
+        /* استایل برای پاراگراف‌های فارسی */
+        p {
+            font-size: 1.1em;
+            line-height: 1.5;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy birthday Narges ❤️</h1>
+        <p>I love You ❤️</p>
+        <audio controls autoplay loop> <!-- loop را اضافه کردم تا موزیک تکرار شود -->
+            <source src="Tavalodet Mobarak Golam (320).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>با آرزوی موفقیت از طرف یاسمن</p>
+    </div>
+</body>
+</html>
